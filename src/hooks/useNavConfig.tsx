@@ -18,21 +18,20 @@ export const useNavConfig = () => {
       { label: <Link to="/swap">Swap & Bridge</Link>, key: '/swap' },
       VITE_ENABLE_CLAIMING
         ? {
-            /*
             label: (
               <a href="/claiming" rel="nofollow noreferrer">
                 Claiming
               </a>
             ),
             key: '/claiming',
-            */
           }
         : null,
+      /*
       {
-        /* label: <Link to="/dashboard">Dashboard</Link>, key: '/dashboard' */
+        label: <Link to="/dashboard">Dashboard</Link>, key: '/dashboard'
       },
+     
       {
-        /*
         label: (
           <a
             href="https://docs.google.com/forms/d/e/1FAIpQLSe9fDY1zCV3vnaubD0740GHzUYcfZoiz2KK_5TIME-rnIA3sg/viewform"
@@ -42,8 +41,8 @@ export const useNavConfig = () => {
           </a>
         ),
         key: 'dev-list',
-        */
       },
+      */
       {
         label: (
           <span className="lifi-more-submenu-title-wrapper">
