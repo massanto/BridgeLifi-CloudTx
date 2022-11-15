@@ -18,16 +18,21 @@ export const useNavConfig = () => {
       { label: <Link to="/swap">Swap & Bridge</Link>, key: '/swap' },
       VITE_ENABLE_CLAIMING
         ? {
+            /*
             label: (
               <a href="/claiming" rel="nofollow noreferrer">
                 Claiming
               </a>
             ),
             key: '/claiming',
+            */
           }
         : null,
-      { label: <Link to="/dashboard">Dashboard</Link>, key: '/dashboard' },
       {
+        /* label: <Link to="/dashboard">Dashboard</Link>, key: '/dashboard' */
+      },
+      {
+        /*
         label: (
           <a
             href="https://docs.google.com/forms/d/e/1FAIpQLSe9fDY1zCV3vnaubD0740GHzUYcfZoiz2KK_5TIME-rnIA3sg/viewform"
@@ -37,6 +42,7 @@ export const useNavConfig = () => {
           </a>
         ),
         key: 'dev-list',
+        */
       },
       {
         label: (
@@ -96,7 +102,8 @@ export const useNavConfig = () => {
               },
             ],
           },
-          {
+          /*
+          { 
             label: (
               <a href="https://blog.li.fi/" target="_blank" rel="nofollow noreferrer">
                 Blog
@@ -104,9 +111,10 @@ export const useNavConfig = () => {
             ),
             key: 'blog',
           },
+          */
           {
             label: (
-              <a href="https://docs.li.fi/" target="_blank" rel="nofollow noreferrer">
+              <a href="https://docs.cloudtx.finance/" target="_blank" rel="nofollow noreferrer">
                 Explore Docs
               </a>
             ),
@@ -114,7 +122,7 @@ export const useNavConfig = () => {
           },
           {
             label: (
-              <a href="https://li.fi/" target="_blank" rel="nofollow noreferrer">
+              <a href="https://cloudtx.finance/" target="_blank" rel="nofollow noreferrer">
                 About
               </a>
             ),
@@ -122,7 +130,7 @@ export const useNavConfig = () => {
           },
           {
             label: (
-              <a href="https://github.com/lifinance" target="_blank" rel="nofollow noreferrer">
+              <a href="https://github.com/" target="_blank" rel="nofollow noreferrer">
                 Github
               </a>
             ),
@@ -130,12 +138,13 @@ export const useNavConfig = () => {
           },
           {
             label: (
-              <a href="https://twitter.com/lifiprotocol" target="_blank" rel="nofollow noreferrer">
+              <a href="https://twitter.com/" target="_blank" rel="nofollow noreferrer">
                 Twitter
               </a>
             ),
             key: 'twitter',
           },
+          /*
           {
             label: 'Legals',
             key: 'legals-submenu',
@@ -147,7 +156,7 @@ export const useNavConfig = () => {
                   </a>
                 ),
                 key: 'privacy',
-              },
+              },yarn
               {
                 label: (
                   <a href="https://li.fi/legal/imprint/" target={'_blank'} rel="noreferrer">
@@ -169,6 +178,7 @@ export const useNavConfig = () => {
               },
             ],
           },
+          */
         ],
       },
       isMobile

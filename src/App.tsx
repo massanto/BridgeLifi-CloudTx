@@ -123,11 +123,11 @@ function App() {
                 <Col xs={24} sm={24} md={14} lg={14} xl={14}>
                   <div className="header-linkWrapper">
                     <Link to="/" className="wordmark">
-                      transferto.xyz
+                      CLOUDTX BRIDGE
                     </Link>
                     <a
                       className="header-poweredBy"
-                      href="https://li.fi/"
+                      href="https://cloudtx.finance/"
                       target="_blank"
                       rel="nofollow noreferrer">
                       <PoweredByLiFi />
@@ -157,7 +157,7 @@ function App() {
                           padding: '13.5px 24px 13.5px 24px',
                         }}
                         className="lifi-support-link headerIconLink lifi-header-social-links"
-                        href="https://discord.com/channels/849912621360218112/863689862514343946"
+                        href="https://discord.com/"
                         target="_blank"
                         rel="nofollow noreferrer">
                         <DiscordIcon style={{ marginRight: 4 }} /> Support
@@ -276,21 +276,21 @@ function App() {
             <div className="lifi-content-social-links">
               <a
                 className="icon-link"
-                href="https://twitter.com/lifiprotocol"
+                href="https://twitter.com/"
                 target="_blank"
                 rel="nofollow noreferrer">
                 <TwitterOutlined />
               </a>
               <a
                 className="icon-link"
-                href="https://github.com/lifinance"
+                href="https://github.com/"
                 target="_blank"
                 rel="nofollow noreferrer">
                 <GithubOutlined />
               </a>
               <Button
                 className="lifi-support-link"
-                href="https://discord.com/channels/849912621360218112/863689862514343946"
+                href="https://discord.com/"
                 target="_blank"
                 rel="nofollow noreferrer">
                 <DiscordIcon style={{ marginRight: 4 }} /> Support
@@ -299,7 +299,8 @@ function App() {
 
             {/* <Footer></Footer> */}
             {/* <NotificationOverlay /> */}
-            {!location.pathname.includes('dashboard') && (
+
+            {/* !location.pathname.includes('dashboard') && (
               <a
                 className="carbon-neutral-btn"
                 href="https://www.klimadao.finance/infinity"
@@ -307,7 +308,7 @@ function App() {
                 rel="nofollow noreferrer">
                 <img src={Carbon_Neutral_Protocol} width="250" alt="Carbon_Neutral_Protocol" />
               </a>
-            )}
+            )*/}
           </Layout>
         )}
       </ChainsTokensToolsProvider>
